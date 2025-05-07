@@ -483,7 +483,7 @@ canvas {
 <script src="pokemon_arrays.js"></script>
 <script src="translate.js"></script>
 <script language="JavaScript">
-	var domlink = window.location.protocol + "//" + window.location.host + "/";
+	var domlink = window.location.origin + window.location.pathname.replace(/\/[^\/]*$/, "") + "/";
 	var type_order = ["", "Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "Gimmick", "Legendary", "Favorite"];
 	var type_eles = ["Normal", "Fire", "Water", "Grass", "Electric", "Ice", "Fighting", "Poison", "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark", "Steel", "Fairy", "Starter", "GimmickForm", "Legend", "FavAlone"];
 	var other_order = ["", "team1", "team2", "team3", "team4", "team5", "team6", "Bird", "Critter", "RegionalBug", "Pseudo", "Pikaclone", "Eevee", "Fossil", "Regional", "GMax", "Box", "Mythical", "Ultra", "Paradox", "Types", "PokeBall", "Spinda", "Vivillon", "Alcremie", "alc0", "alc7", "alc14", "alc21", "alc28", "alc35", "alc42", "alc49", "alc56", "Baby", "NewEvolution"];
